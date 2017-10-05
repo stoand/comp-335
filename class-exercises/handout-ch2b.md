@@ -18,3 +18,42 @@ S1 is `135000 / 130000 = 1.04` times more cost effective for Programs 1 and 2
 
 ### Ex3
 
+Seconds in Hour = `60 * 60`
+
+#### S1 
+
+P1 Run Duration = `200 * 10 = 2000 seconds`
+P2 Run Duration = `3600 - 2000 = 1600`
+P2 Times Executed = `1600 / 3 = 533`
+
+__533__
+
+#### S2 
+
+P1 Run Duration = `200 * 5 = 1000 seconds`
+P2 Run Duration = `3600 - 1000 = 2600`
+P2 Times Executed = `2600 / 4 = 650`
+
+__650__
+
+### Ex4
+
+a) - S1 MIPS
+
+`20e6 / 10 = 2 MIPS`
+
+b) - S2 MIPS
+
+`16e6 / 5 = 3.2 MIPS`
+
+### Ex5
+
+a) - S1 CPI
+
+`20e6 / 10 = 2e6` inst per sec
+`20e6 / 2e6 = 10` cycles per inst
+
+a) - S2 CPI
+
+`16e6 / 5 = 3.2e6` inst per sec
+`30e6 / 3.2e6 = 9.4` cycles per inst
